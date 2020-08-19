@@ -6,7 +6,7 @@
 
 ## Scope
 
-Are globally [scoped](https://github.com/Henryxavierb/starting-from-the-beginning/blob/learning/terminology.md) or function/locally scoped. The scope is global when a var variable is declared outside a function.
+Are globally [scoped](https://github.com/Henryxavierb/starting-from-the-beginning/blob/learning/terminology.md#scoped) or function/locally scoped. The scope is global when a var variable is declared outside a function.
 
 ```
   var hello = "Hello";
@@ -38,7 +38,7 @@ Also, var can be re-declared and updated.
 
 ## Hoisted
 
-Var are [hoisted](https://github.com/Henryxavierb/starting-from-the-beginning/blob/learning/terminology.md) to the top of their scope and initialized with a value of [undefined](https://github.com/Henryxavierb/starting-from-the-beginning/blob/learning/terminology.md).
+Var are [hoisted](https://github.com/Henryxavierb/starting-from-the-beginning/blob/learning/terminology.md#hoisting) to the top of their scope and initialized with a value of [undefined](https://github.com/Henryxavierb/starting-from-the-beginning/blob/learning/terminology.md#undefined).
 
 ```
   console.log("Say", say);
@@ -88,7 +88,7 @@ If you have used 'say' in other parts of your code, you might be surprised at th
 
 ## Is a block scope
 
-So a variable declared in a [block](https://github.com/Henryxavierb/starting-from-the-beginning/blob/learning/terminology.mds) with let is only avaliable for use within that block.
+So a variable declared in a [block](https://github.com/Henryxavierb/starting-from-the-beginning/blob/learning/terminology.md#block) with let is only avaliable for use within that block.
 
 ```
   let greeting = "say Hi";
