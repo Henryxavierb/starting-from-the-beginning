@@ -2,7 +2,7 @@
 
 ## Scope
 
-Where these variables are available for use.
+How far the variables and functions can be available for use.
 
 <br>
 
