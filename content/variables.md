@@ -203,7 +203,7 @@ we can do this:
 
 ## Hoisting of const
 
-Just like let, const declarations are hoisted to the top but are not initialized.
+Just like let, const declarations are hoisted to the top but also have problem: Syntaxy Error.
 
 ---
 
