@@ -87,3 +87,39 @@ For has a simple structure that need three components, like index;
 <br>
 
 So... we get the index and we use to return a value on the index position.
+
+<br>
+
+### For of
+
+For of has the same objective of the simple for, but instead of providing an index to reference a position in the list, it provides an element to reference any data in the list.
+
+```
+  for(const name of names) {
+    console.log("Name: ", name)
+  }
+
+  // Output: "João","Maria","Bentina","Victor","Mônica"
+```
+
+<br>
+
+### For in
+
+Used to iterate over an objects over it's properties
+
+```
+let oldCar = {
+  year: '1996',
+  make: 'Toyota',
+  model: 'Tercel',
+};
+
+for (let key in oldCar) {
+  console.log(`${key} --> ${oldCar[key]}`);
+}
+
+// make --> Toyota
+// model --> Tercel
+
+```
