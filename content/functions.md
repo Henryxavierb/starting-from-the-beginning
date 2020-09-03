@@ -21,37 +21,75 @@ fullName("John", "Victor");
 
 <br>
 
-* A function declaration:
+- A function declaration:
+
 ```
   function fullName() {...}
 ```
 
-* A function name:
+- A function name:
+
 ```
   fullName
 ```
 
-* A function return:
+- A function return:
+
 ```
   return "My name is " + name + " " + lastname
 ```
 
-* The function parameters:
+- The function parameters:
+
 ```
   (name, lastname)
 ```
 
-* The function arguments:
+- The function arguments:
+
 ```
   ("John", "Victor")
 ```
 
-* The function call:
+- The function call:
+
 ```
   fullName("John", "Victor")
 ```
 
-* The function scope:
+- The function scope:
+
 ```
        {...}
+```
+
+<br>
+
+## Curious things: Arrow function
+
+<br>
+
+Arrow function has a short syntax than a function expression and doesn't have its own argument. These functions expression are better applied to a function that don't be methods and can't be used as constructors.
+
+As names says, arrow function can be identified by arrow formart
+
+```
+
+function displayColor(color) {
+  console.log(color);
+}
+
+// Also can be written as an arrow
+const displayColor = ( color ) => {
+  console.log(color);
+}
+
+```
+
+Another example:
+
+```
+const cardinalNumbers = [1, 2, 3, 4, 5, 6, 7];
+
+cardinalNumbers.map(number => { console.log(number) })
 ```
