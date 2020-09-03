@@ -10,6 +10,8 @@ This article has a simple objective of help JavaScript beginners study. So let's
 
 - [Variables](https://github.com/Henryxavierb/starting-from-the-beginning/blob/learning/content/variables.md)
 
+- [Arrays](https://github.com/Henryxavierb/starting-from-the-beginning/blob/learning/content/arrays.md)
+
 - [Coditional and repeat structure](https://github.com/Henryxavierb/starting-from-the-beginning/blob/learning/content/conditionals-and-repeat-structure.md)
 
 - [Functions](https://github.com/Henryxavierb/starting-from-the-beginning/blob/learning/content/functions.md)
