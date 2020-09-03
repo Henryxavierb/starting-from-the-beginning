@@ -74,7 +74,13 @@ To iterate an array we can use [repeat structure](https://github.com/Henryxavier
 
 <br>
 
+OBS: If you don't know the map format, learn before about [arrow function](https://github.com/Henryxavierb/starting-from-the-beginning/blob/learning/content/functions.md#curious-things-arrow-function)
+
+<br>
+
 ## Remove array data
+
+<br>
 
 To finish, we'll remove the data of an array. For this, we'll use the pop method.
 The pop method is used to remove the last data on the array. Last see it
