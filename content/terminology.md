@@ -27,3 +27,9 @@ It's a declared variable that has been initialized, but has no value.
 ## Block
 
 It's a chunk of code bounded by { }.
+
+<br>
+
+## Interpolation
+
+The insertion of something of a difference nature into something else.
